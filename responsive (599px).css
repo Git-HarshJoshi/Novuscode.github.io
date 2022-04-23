@@ -1,0 +1,135 @@
+@media only screen and (max-width: 599px) {
+
+
+.heading a{
+    font-size: 3.3rem;
+    top: 0.6rem;
+}
+
+.heading1 {
+    left: 12.8rem;
+    font-weight: normal;
+}
+
+
+#first{
+    
+   left: 5rem;
+}
+
+.second{
+
+    margin-top: 2rem;
+}
+.secondcont{
+
+    margin-top: 0rem;
+}
+
+#fifth{
+
+    top: 30rem;
+}
+
+.fifth{
+    
+    font-size: 3rem;
+ }
+
+#sixth{
+    top: 40rem;
+}
+ .sixth{
+     margin-top: 3rem;
+     font-size: 3rem;
+     
+ }
+ .sixthpara{
+     width: 80vw;
+     margin: 0rem -2rem;
+ }
+
+
+ #seventh{
+
+    top: 45rem;
+ }
+ #slider figure .img1,
+ #slider figure .img2,
+ #slider figure .img3,
+ #slider figure .img4
+ {
+     display: none;
+ }
+
+
+ #slider figure .img5{
+
+    width: 15rem;
+    height: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+ }
+ #slider figure .img6{
+
+width: 21rem    ;
+height: 7.5rem;
+margin-right: 5rem;
+margin-top: 2rem;
+ }
+
+
+ #nineth{
+     top: 50rem;
+     justify-content: center;
+ }
+ .nineth{
+    font-size: 3.3rem;
+ }
+
+.tenthcont{
+
+    flex-direction: column;
+}
+
+.tenth1,
+.tenth2{
+
+    width: 94%;
+    margin-left: 4vw;
+    margin-bottom: 2rem;
+}
+
+.tenth3{
+    width: 94%;
+    margin-left: 4vw;
+    margin-top: 0rem;
+}
+
+
+.eleventhp{
+    top: 110vh;
+    font-size: 3.4rem;
+    padding-left: 3rem;
+    line-height: 4.3rem;
+}
+
+.fifteen{
+    justify-content: space-evenly;
+}
+#fifteen{
+   top: 118vh;
+}
+
+footer{
+
+    top: 135vh;
+}
+
+.fourteen{
+    top: 136vh ;
+    font-size: 1.7rem;
+}
+
+
+}

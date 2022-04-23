@@ -1,0 +1,810 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+   font-family:Arial, Helvetica, sans-serif; 
+}
+
+html{
+
+    font-size: 62.5%;
+}
+
+
+ul .line{
+    display: none;
+}
+/* first content styling */
+#first{
+   position: relative;
+   top: 15rem;
+   max-width: 49vw;
+   left: 12rem;
+   padding: 2rem 0rem;
+  
+}
+
+.firstpara{
+    
+    text-align: center;
+    font-size: 4.8rem;
+   line-height: 6.1rem ;
+   width: 100%;
+   margin: auto;
+font-weight: bold;
+}
+
+
+.firstcont{
+ margin: 2rem  auto;
+ text-align: center;
+ font-size: 1.8rem; 
+ font-weight: bold;
+ width: 100%;
+ line-height: 3rem ;
+}
+ .firstbtn{
+     margin: .5rem ;
+    font-size: 1.5rem ;
+    padding: 1.8rem  3.4rem ;
+    border-radius: 4rem ;
+    background-color: #06489e;
+    color: white;
+    font-weight: 700;
+    border: solid;
+    cursor:pointer;
+ }
+
+#firstform{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: absolute;
+   right: 5rem;
+   top: 19rem;
+
+}
+
+.firstform input{
+
+    margin: 1rem;
+    width: 90%;
+    padding: 1.3rem  .5rem ;
+    border-radius: 2rem ;
+    border: .1rem  solid rgb(109, 108, 108);
+   
+    
+}
+
+.firstform input::placeholder{
+color: rgb(207, 206, 206);
+font-size: 1.5rem;
+border: none;
+
+}
+.firstform .form_message{
+    padding-bottom: 11rem;
+}
+
+.firstform button{
+
+   border-radius: 3rem;
+    padding: 1.5rem 2.5rem;
+    background-color: #06489e;
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-style: none;
+    margin-left: 1rem;
+    margin-top: 10rem;
+    cursor: pointer;
+}
+
+
+/* second content styling */
+
+ #second{
+     /* border: 2px solid red; */
+     position: relative;
+     top: 30rem;
+
+     max-width: 100vw;
+     background-color:#224d85;
+     color: white;
+     padding: 2rem 0px;
+  
+  
+ }
+ .second{
+     text-align: center;
+     font-size: 4rem;
+     font-weight: bold;
+     margin-top: 2rem;
+ 
+ }
+
+ .secondcont{
+     display: flex;
+     flex-wrap: wrap;
+     margin: 1rem 0rem;
+     justify-content: center;
+     
+     /* border: 2px solid red; */
+}
+
+ #secondpara1,
+ #secondpara2,
+ #secondpara3,
+ #secondpara4,
+ #secondpara5,
+ #secondpara6 {
+     border: .2rem solid white;
+     width: 37rem;
+    height: 23rem;
+     border-radius: 1rem;
+     text-align: center;
+     padding:2rem ;
+     margin: 1.5rem 3rem;
+     font-size: 1.8rem;
+ }
+ .second1,
+ .second2,
+ .second3,
+ .second4,
+ .second5,
+ .second6 {
+    padding: 1.5rem 0rem; 
+    cursor: pointer;
+ } 
+ .second1:hover,
+ .second2:hover,
+ .second3:hover,
+ .second4:hover,
+ .second5:hover,
+ .second6 :hover {
+    color: black;
+    transition: .4s
+    
+ } 
+
+ .sec1 ,
+ .sec2 ,
+ .sec3 ,
+ .sec4 ,
+ .sec5 ,
+ .sec6 { 
+ font-weight: bold;
+ font-size: 2rem;
+ }
+   
+ 
+ /* third content styling */
+ #third
+{
+    display: flex;
+    padding-left: 1rem;
+    position: relative;
+    top: 40rem;
+    justify-content: space-evenly;
+    
+}
+
+.third1{
+    font-size: 5rem;
+    padding: 0rem 4.7rem;
+    color: #277cea;
+    font-weight: bold;
+}
+
+/* Div1 spaces are un-even thats why new div11 has created*/
+
+.third11{
+    font-size: 4.5rem;
+    padding: 0rem 7rem;
+    color: #277cea;
+    font-weight: bold;
+    padding: .2rem 7rem;
+}
+.third2{
+    font-size: 2rem;
+    justify-items: center;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+/* fourth  content styling */
+#fourth{
+
+    /* border: 2px solid red; */
+    position: relative;
+    top: 50rem;
+ 
+    max-width: 100vw;
+    background-color:#224d85;
+    color: white;
+ padding: 2rem 0rem;
+
+}
+
+.fourth{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+margin-top: 2rem;
+}
+
+.fourthcont{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 1rem;
+    justify-content: center;
+}
+
+#fourthpara1,
+#fourthpara2,
+#fourthpara3,
+#fourthpara4,
+#fourthpara5,
+#fourthpara6 {
+    border: .2rem solid white;
+    width: 37rem;
+    height: 23rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem ;
+    margin: 1.5rem 2rem;
+    font-size: 1.8rem;
+}
+.fourth1,
+.fourth2,
+.fourth3,
+.fourth4,
+.fourth5,
+.fourth6 {
+   padding: 1.5rem 0rem; 
+} 
+
+.four1 ,
+.four2 ,
+.four3 ,
+.four4 ,
+.four5 ,
+.four6 { 
+font-weight: bold;
+font-size: 2rem;
+}
+
+
+/* fifth content styling */
+#fifth{
+    position: relative;
+    top: 60rem;
+    
+}
+.fifth{
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    max-width: 100vw;
+}
+
+
+
+/* sixth content styling */
+#sixth{
+
+    position: relative;
+    top: 65rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 25rem;
+    
+}
+
+.sixthpara{
+
+    font-size: 1.7rem;
+    width: 40%;
+    margin: auto .9rem;
+line-height: 3rem;
+}
+.sixth{
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+  
+    width: 40%;
+    margin-right: 2.4rem;
+}
+
+
+
+/* seventh content styling */
+   #seventh{
+    
+       position: relative;
+       top: 70rem;
+       width: 95%;
+       margin: auto;
+   }
+
+#slider {
+       
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+  
+ #slider figure {
+   
+    display: flex;
+     margin: 0;
+     left: 0;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6{
+
+        margin-right: 1.5rem;
+    }
+
+    .img1{
+        margin-top: 5rem;
+    }
+    .img2{
+        margin-top: 3rem;
+    }
+    .img5,
+    .img6{
+        margin-top: 5rem;
+    
+    }
+
+
+/* nineth content styling */
+#nineth{
+
+    position: relative;
+    top: 80rem;
+ 
+    max-width: 100vw;
+    background-color:#224d85;
+    color: white;
+ padding: 2rem 0rem;
+
+}
+
+.nineth{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+margin-top: 2rem;
+}
+
+.ninethcont{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 2rem 0rem;
+    justify-content: center;
+    width: 98.6vw;
+    /* border: 2px solid red; */
+}
+
+#ninethpara1,
+#ninethpara2,
+#ninethpara3
+ {
+    border: .2rem solid white;
+    width: 37rem;
+   
+    text-align: center;
+    padding:2rem ;
+    margin: 1.5rem 2rem;
+    font-size: 1.8rem;
+    background-color: aliceblue;
+    color: black;
+    align-items: center;
+}
+.nineth1,
+.nineth2,
+.nineth3
+ {
+   padding: .5rem 1.5rem; 
+} 
+
+.nine1 ,
+.nine2 ,
+.nine3 {
+font-weight: bold;
+font-size: 2rem;
+}
+
+.nineth1 .ninethbtn1,
+.nineth2 .ninethbtn1,
+.nineth3 .ninethbtn1 
+{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  border-radius: 4rem;
+  border-style: none;
+  background-color: #083f86;
+  color: white;
+  font-weight: 740;
+  cursor: pointer;
+}
+.ninethbtn2 button{
+  margin-top: -.5rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  border-radius: 4rem;
+  border-style: none;
+  background-color: #07397a;
+  color: white;
+  font-weight: 740;
+  cursor: pointer;
+}
+.ninethbtn2{
+    text-align: center;
+}
+
+/* tenthcontent content styling */
+#tenth{
+ position: relative;
+ top: 85rem;
+justify-content: center;
+width: 98.5vw;
+height: auto;
+
+}
+
+.tenthp{
+
+    text-align: center;
+    padding: 2rem;
+   font-size: 3.5rem;
+   font-weight: bold;
+}
+
+.tenthcont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.tenth1,
+.tenth3,
+.tenth2 {
+ border: .1rem solid gainsboro;
+width: 27.5vw;
+height: 62rem;
+border-radius: .8rem;
+display:flex ;
+flex-direction: column;
+
+}
+
+.tenth1:hover,
+.tenth3:hover,
+.tenth2:hover {
+    box-shadow: 0rem 0rem 1.5rem .1rem #a09e9e;
+transition: .3s
+}
+
+
+.tenp1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 3rem 4rem;
+    cursor: pointer;
+}
+.tenp1:hover{
+ 
+    color: #277cea;
+}
+
+.tenthpara1 img,
+.tenthpara2 img,
+.tenthpara3 img{
+/* width: 27.4vw;
+height: 50vh; */
+height: auto;
+max-width: 100%;
+border-top-right-radius: 1rem;
+border-top-left-radius: 1rem;
+
+}
+.tenp2{
+    font-size: 1.8rem;
+   width: 80%;
+    margin: auto;
+    }
+
+.tenthpara1 .tenthbtn,
+.tenthpara2 .tenthbtn,
+.tenthpara3 .tenthbtn {
+
+    padding: 2.4vh 2.5vw;
+      font-weight: 550;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: #ebe8e8;
+    cursor: pointer;
+    margin-top: 5vh;
+}
+
+.tenthbtn:hover
+{ 
+background-color: rgb(197, 195, 195);
+transition: .3s;
+
+}
+
+.tenthbtn{
+    margin: auto 4rem;
+}
+ .tenthbtn1{
+text-align: center;
+
+   
+}
+.tenthbtn1 button{
+    margin-top:  3.9rem;
+        font-size: 1.5rem;
+        padding: 1.5rem 3rem;
+        border-radius: 4rem;
+        border-style: none;
+      background-color: #07397a;
+      color: white;
+      font-weight: 740;
+      cursor: pointer;
+    }
+
+ /* eleventh content styling */
+
+
+
+    .eleventhp{
+    position: relative;
+    top: 100rem;
+    padding-left: 4.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    }
+
+
+
+     /* form content styling */ 
+    #twelve{
+        width: 46%;
+        height: 70rem;
+        position: relative;
+        top: 105rem;
+        float: right;
+        margin-right: 5rem;
+        box-shadow: .1rem 0rem 2.8rem .1rem grey;
+        display:flex;
+        flex-direction: column;
+       
+    }
+       
+    .twelve form{
+
+        padding: 0rem 4rem;
+        box-sizing: border-box;
+       
+    }
+
+     form .txt_field{
+    
+    position: relative; 
+    height: 4.2rem;
+    border-bottom: .2rem solid #adadad;
+    margin: 3rem 0rem 7rem;
+    
+     }
+     .txt_field input{
+         width: 100%;
+         padding: 0rem .5rem;
+         height: 4rem;
+         font-size: 1.6rem;
+         border: none;
+         background: none;
+         outline: none;
+         padding: 2rem 0rem;
+     }
+     .txt_field label{
+         position: absolute;
+         top: 45%;
+         color: #adadad;
+         left: .5rem;
+         transform: translateY(-50%);
+         font-size: 1.8rem;
+         pointer-events: none;
+         transition: .5s;
+         font-weight: normal;
+        
+     }
+     .txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 0%;
+    height: .2rem;
+    background: rgb(218, 67, 67);
+    transition: .5s;
+    
+     }
+    
+     .txt_field input:focus ~  label,
+     .txt_field input:valid ~ label{
+      top: -.5rem;
+      color: rgb(218, 67, 67) ;
+     }
+    
+     .txt_field input:focus ~  span::before,
+     .txt_field input:valid ~ span::before{
+      width: 100%;
+     }
+    
+    input[type="submit"] {
+    
+    width: 20%;
+    height: 6rem;
+    border-style: solid;
+    border: none;
+    border-radius: 3rem;
+    background-color: #0549a1;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 600;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    bottom: 5rem;
+     }
+    
+    .formcheckbox {
+        margin: 1.2rem;
+    }
+    
+    .formpara{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        color: #244DA2;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+    .checkbox {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.8rem;
+        
+    }
+
+    input[type="checkbox"]{
+        width: 1.8rem; 
+        height: 1.8rem; 
+        cursor: pointer;
+      }
+
+
+      
+      
+      /* fifteen content styling */
+      
+      #fifteen{
+       
+          position: relative;
+          top: 102rem;
+          height: 15%;
+          width: 45%;
+        }
+        .fifteen
+        {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50vw;
+            height: 95%;
+            margin-top: 3rem;
+            
+        }
+        
+        .fifcont{
+            
+            padding: 3rem 13rem 3.7rem 8rem;
+            font-weight: bold;
+            width: 10%;
+            color: rgb(31, 30, 30);
+            font-size: 1.4rem;
+            
+        }
+        
+        .fifteenp{
+            
+            font-size: 3.8rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+  
+        
+        /* footer styling */
+        footer{
+
+            position: relative;
+            top: 106rem;
+            background-color:#224d85; 
+            display: flex;
+            width: 100%;
+            text-decoration: none;
+            line-height: 2.2rem;
+            padding-left:5.2rem;
+        }
+         
+        .thirteencont{
+             
+              width: 25%;
+          }
+            
+          .para2 a, .para3 a, .para4 a{
+              padding-top: 1.2rem;
+              width: 80%;
+              text-decoration: none;
+              color: #FFF;
+              font-weight: normal;
+              font-size: 1.6rem;   
+              line-height: 3rem;     
+          }
+          .para2 a:hover,
+           .para3 a:hover,
+           .para4 a:hover {
+        
+              color: rgb(101, 101, 253);
+              transition: .3s;
+          }
+          .para1 {
+                 line-height: 2.3rem;
+                 font-weight: normal;
+                 padding-top: 1.8rem;
+                 font-size: 1.6rem;
+                 color: white;
+                 width: 53%;
+                 padding-bottom: .7rem;
+          }
+          
+          #head1, #head2, #head3, #head4{
+              font-size: 2.5rem;
+              font-weight: bold;
+              color: white;
+              margin-top: 2rem;
+              margin-bottom: 1rem;
+        
+          }
+        
+          /* fourteen content styling */
+        
+        .fourteen{
+           
+            position: relative;
+            top: 107rem;
+            padding-left: 5.4rem;
+            color: #1a1a11;
+            font-weight: normal;
+            font-size: 1.8rem;
+            width: 50vw;
+          }
+

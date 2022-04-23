@@ -1,0 +1,341 @@
+@media only screen and (max-width: 898px) {
+
+    .rgtbtn{
+         display: none;
+        }
+
+        .dropdown,
+        .dropdown1,
+        .dropdown2,
+        .dropdown3,
+        .dropdown5{
+            display: none;
+        }
+
+
+        .firstform{
+            display: none;
+        }
+    
+        #twelve{
+    
+         display: none;
+        }
+
+        #first{
+    
+            left: 8rem;
+         }
+        .firstcont{
+
+            width: 80vw;
+        }
+    .firstpara {
+        font-size: 4.5rem;
+
+    }
+    .firstpara1{
+        
+    font-size: 1.7rem;
+
+    }
+
+    #second{
+
+     top: 18rem;
+     text-align: center;
+    }
+
+    .second{
+
+        margin-top: 2rem;
+    }
+   .secondcont{
+       flex-direction: row;
+       flex-wrap: wrap;
+       margin-top: 1rem;
+   }
+
+   #secondpara1{
+   margin-top: 3rem ;
+   width: 40rem;
+    height: 25rem;
+   font-size: 1.7rem;
+
+  }
+ #secondpara2,
+ #secondpara3,
+ #secondpara4,
+ #secondpara5,
+ #secondpara6{
+
+    width: 40rem;
+    height: 25rem;
+margin-top: 0rem;
+font-size: 1.7rem;
+}
+.second1 p,
+.second2 p,
+.second3 p,
+.second4 p,
+.second5 p,
+.second6 p{
+    line-height: 2.5rem;
+ }
+
+
+ #third{
+    top: 20rem;
+    flex-direction: column;
+    text-align: center;
+    min-height: auto;
+}
+
+.third1{
+     padding: 2rem;
+max-width: 100%;
+ }
+ .third2{
+
+    padding-bottom: 2rem;
+    max-width: 100%;
+ }
+.third11{
+     padding: 2rem;
+     max-width: 100%;
+ }
+
+ #fourth{
+     top: 26rem;
+ }
+
+
+ #fourthpara1,
+ #fourthpara2,
+ #fourthpara3,
+ #fourthpara4,
+ #fourthpara5,
+ #fourthpara6{
+
+width: 40rem;
+height: 25rem;
+margin-top: 1rem;
+font-size: 1.7rem;
+}
+
+.fourth1 p,
+.fourth2 p,
+.fourth3 p,
+.fourth4 p,
+.fourth5 p,
+.fourth6 p{
+    line-height: 3rem;
+ }
+
+ #fifth{
+
+    top: 32rem;
+ }
+
+ #sixth{
+    flex-direction: column;
+    padding-left: 7rem;
+    top: 33rem;
+    width: 92vw;
+ }
+
+ .sixth{
+    width: 84vw;
+    font-size: 3.7rem;
+    margin-right: 0rem;
+    margin-left: -2rem;
+ }
+ .sixthpara{
+     width: 80vw;
+ }
+
+ #seventh{
+
+    width: 84vw;
+    top: 38rem;
+ }
+
+ #slider figure img{
+
+    width: 12vw;
+    height: 8vw;
+ }
+ #slider figure .img2,.img3 , .img4{
+
+margin-top: 5rem;
+ }
+
+ #nineth{
+     top: 45rem;
+
+ }
+
+ .ninethcont{
+     flex-direction: column;
+     margin-top: 5rem ;
+     margin-bottom: 5rem ;
+     margin-left: -.5rem;
+ }
+
+ #ninethpara1,
+ #ninethpara2,
+ #ninethpara3{
+
+    width: 90vw;
+  
+    margin-top: 1vh;
+    margin-left: 6vw;
+    padding-top: 8vh;
+    font-size: 1.7rem;
+ }
+
+ .ninethp1 {
+
+    max-width: 75vw;
+   padding-left: 4vw;
+   padding-bottom: 3vh;
+   line-height: 3rem;
+
+ }
+
+
+ 
+ .ninethbtn2{
+ position: relative;
+ top: -3.5rem;
+
+ }
+
+ .nine1,
+ .nine2,
+ .nine3{
+    font-size: 2.4rem;
+ }
+ 
+
+#tenth {
+
+top: 50rem;
+}
+
+.tenthcont{
+   
+  flex-wrap: wrap;
+   height: auto;
+}
+
+.tenth1,
+.tenth2
+{
+    width: 45%;
+    min-height: 50vh ;
+}
+
+.tenth3
+{
+    width: 44vw;
+    margin-top: 4rem;
+    float: left;
+    margin-right: 47vw;
+}
+
+
+
+.eleventhp{
+  top: 65rem;
+  width: 98vw;
+  font-size: 3.8rem;
+}
+
+
+#fifteen{
+  top: 68rem;
+  width: 100%;
+}
+
+.fifteen{
+  width: 100vw;
+  justify-content: space-between;
+  margin-top: 0rem
+}
+
+.fifcont{
+    padding: 5rem 13rem .7rem 7rem;
+}
+
+footer{
+  top: 80rem;
+ 
+}
+footer{
+    flex-direction: column;
+    width: 100vw;
+    padding-left: 4rem;
+}
+
+
+.thirteencont{
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  width: 90vw;
+}
+
+#head4{
+   width: 50%;
+}
+.thirteencont p{
+
+    width: 25vw;
+}
+
+.fourteen{
+    top: 160vh;
+    width: 100%;
+}
+
+
+ul .line{
+position: relative;
+top: 2.2rem;
+left: 45vw;
+ display: block;
+width: 2.5rem;
+background-color: black;
+height: .3rem;
+margin: .6rem .3rem;
+list-style: none;
+
+}
+.menubar img{
+
+left: 1.4rem;
+}
+
+.heading a{
+left: 4rem;
+
+}
+.heading1{
+left: 14.8rem;
+font-weight: normal;
+}
+
+}
+
+@media only screen and (max-width: 1199px){
+
+    #twelve{
+        display: none;
+    }
+} 
+@media only screen and (max-width: 990px){
+
+    .firstform{
+        display: none;
+    }
+} 
